@@ -7,7 +7,8 @@
 create table dept(
   deptno   number(2,0) not null,
   dname    varchar2(14),
-  loc      varchar2(13));
+  loc      varchar2(13),
+  head_dept number(2,0));
 create table emp(
   empno    number(4,0) not null,
   ename    varchar2(10),
